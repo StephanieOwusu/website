@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'amazonLinux-latest'
 
 steps:
 - task: ArchiveFiles@2
